@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2e3440;
+    background-color: #d8dee9;
+}
+
+main {
+    margin: 2rem auto;
+    max-width: 45rem;
+}
+
+header {
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 45rem;
+}
+
+.container {
+    background-color: #eceff4;
+    border: 4px solid #b48ead;
+    border-radius: 10px;
+    margin: auto;
+    width: 20rem;
+    padding: 10px;
+    transition: 0.6s;
+}
+
+.container h1 {
+    font-size: 45px;
+    margin: 0;
+    transition: 0.6s;
+}
+
+.container sub {
+    transition: 0.6s;
+}
+
+.container:hover {
+    background-color: #2e3440;
+    border: 4px solid #a3be8c;
+    transition: 0.6s;
+}
+
+.container:hover h1 {
+    color: #a3be8c;
+    transition: 0.6s;
+}
+
+.container:hover sub {
+    color: #a3be8c;
+    transition: 0.6s;
+}
+
+.block {
+    background-color: #eceff4;
+    border: 4px solid #b48ead;
+    border-radius: 10px;
+    margin: 1.5rem auto;
+    padding: 20px 20px;
+}
+
+.block h2 {
+    margin: 0 0 20px 0;
+}
+
+main p {
+    text-align: justify;
+}
+
+.block table {
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 20px 0;
+    text-align: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.block td {
+    background-color: #ebcb8b;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 33%;
+    transition: 0.6s;
+}
+
+
+.block:hover td {
+    font-size: 17px;
+    transition: 0.6s;
+}
+
+
+footer {
+    border: 4px solid #a3be8c;
+    border-radius: 10px;
+    text-align: center;
+    margin: 3rem auto 0 auto;
+    max-width: 45rem;
+    color: #eceff4;
+    background-color: #2e3440;
+    height: 5rem;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #d08770;
+    font-weight: bold;
+}
+
+.copy {
+    font-size: 12px;
+    margin-top: 2rem;
+}
